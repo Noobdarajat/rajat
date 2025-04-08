@@ -1,0 +1,16 @@
+:root {
+    --border-width: 2px;
+    --border-style: solid;
+    --border-color: #000;
+}
+
+.border {
+    border: var(--border-width) var(--border-style) var(--border-color);
+}
+.border-top {
+    border-top: var(--border-width) var(--border-style) var(--border-color);
+}
+.border-right {
+    border-right: var(--border-width) var(--border-style) var(--border-color);
+}
+
